@@ -5,7 +5,7 @@ const ThemeSwiper = () => {
   const [theme, setTheme] = useState("dark");
 
   const handleTheme = () => {
-    const newTheme = theme === "black" ? "lofi" : "black";
+    const newTheme = theme === "dim" ? "winter" : "dim";
     setTheme(newTheme);
     document.getElementById("html-id").setAttribute("data-theme", newTheme);
   };
@@ -18,7 +18,7 @@ const ThemeSwiper = () => {
           <input
             type="checkbox"
             onChange={handleTheme}
-            checked={theme === "black"}
+            checked={theme === "dim"}
           />
 
           {/* sun icon */}
