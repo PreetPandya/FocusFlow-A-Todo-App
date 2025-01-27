@@ -24,7 +24,7 @@ const AddTodo = () => {
           Add Task
         </button>
         <dialog id="my_modal_1" className="modal">
-          <div className="modal-box">
+          <div className="modal-box bg-base-200">
             <h1 className="font-bold text-[30px]">Add a task</h1>
             <form
               className="card-body p-0 my-5"
