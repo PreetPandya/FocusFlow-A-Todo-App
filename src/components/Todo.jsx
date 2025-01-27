@@ -116,7 +116,7 @@ const Todo = () => {
           <>
             <div className="fixed inset-0 bg-black bg-opacity-50"></div>
             <dialog id="edit_modal" className="modal" open>
-              <div className="modal-box">
+              <div className="modal-box bg-base-200">
                 <h1 className="font-bold text-[30px]">Edit Task</h1>
                 <form
                   className="card-body p-0 my-5"
